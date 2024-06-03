@@ -42,7 +42,7 @@
                                 </form>
                                 @break
                             @case($reservation->status == 'Accettato' || $reservation->status == 'Accettato')
-                                <p>Your reservation is <span class="text-primary">Accettata!</span></p>
+                                <p>La tua prenotazione è stata <span class="text-primary">Accettata!</span></p>
                                 @break
                             @endswitch
                         @endif

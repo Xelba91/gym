@@ -22,6 +22,8 @@
         }
         .auth-container {
             background-color: rgba(255, 255, 255, 0);
+            border-color: white;
+            border-style: solid;
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -52,7 +54,7 @@
         @if (Route::has('login'))
             <div class="auth-links">
                 @auth
-                    <a href="{{ url('/dashboard') }}">Dashboard</a>
+                    <a href="{{ url('/dashboard') }}">Dashboard Admin</a>
                 @else
                 <h1>Palestra Xelba</h1>
                     <a href="{{ route('login') }}">Log in</a>
