@@ -21,12 +21,13 @@
             align-items: center;
         }
         .auth-container {
-            background-color: rgba(255, 255, 255, 1);
+            background-color: rgba(255, 255, 255, 0);
             border-radius: 10px;
             padding: 20px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
             text-align: center;
            margin-bottom: 500px;
+         color: white
         }
         .auth-links {
             margin-top: 20px;
@@ -37,6 +38,8 @@
             padding: 10px 20px;
             border-radius: 5px;
             margin: 0 10px;
+            background-color: rgba(255, 255, 255,);
+           
         }
         .auth-links a:hover {
             background-color: #f0f0f0;
