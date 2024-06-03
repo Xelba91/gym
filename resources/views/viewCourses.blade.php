@@ -6,6 +6,9 @@
         @if($user_role === 'admin')
             <a href="/personal/course/create" class="btn btn-primary mt-3">Aggiungi un nuovo corso</a>
         @endif
+        <div class="table-responsive">
+
+        
         <table class="table">
             <thead>
                 <tr>
@@ -37,5 +40,6 @@
                 @endforeach
             </tbody>
         </table>
+    </div>
     </main>
 </x-app-layout>
